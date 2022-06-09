@@ -444,3 +444,31 @@ footer p88 {
   color: grey;
   padding-bottom: 60px;
 }
+.navigation {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+  position: absolute;
+  top: 45px;
+  left: 280px;
+}
+@media screen and (min-width: 460px) {
+  .menu {
+    display: none;
+   .navigation {
+     text-decoration: none;
+   } 
+   .navigation li{
+     display: flex;
+   }
+  }
+}
+@media screen and (max-width: 460px) {
+.navigation {
+  display: none;
+}
+}
