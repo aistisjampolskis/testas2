@@ -234,4 +234,143 @@ button:before {
   line-height: 150%;
   color: #111111;
 }
+
+u {
+  font-weight: 550;
+}
+
+.scrolling-wrapper {
+  position: absolute;
+  top: 1550px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  left: 32px;
+}
+
+.scrolling-wrapper .card {
+  display: inline-block;
+  max-width: 332px;
+  margin: auto;
+  height: 442px;
+}
+
+.card {
+  background-color: #eeeeee;
+  font-family: "Inter";
+  border-radius: 2rem;
+}
+
+h2 {
+  color: orange;
+  font-size: 18px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.item {
+  font-family: "Inter";
+  font-size: 18px;
+  padding-left: 0px;
+  margin-top: 4px;
+  font-weight: 800;
+}
+
+.gloop {
+  padding-left: 0px;
+}
+
+.number {
+  font-size: 18px;
+  padding-left: 0px;
+  margin-top: 1px;
+  color: grey;
+}
+
+.pricetag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bottom-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.repeat {
+  position: absolute;
+  top: 2000px;
+}
+
+.solid-line {
+  height: 2px;
+  background-color: #eeeeee;
+  margin: 84px 0;
+  border-radius: 25px;
+  width: 534px;
+  margin-right: 0px;
+  margin-left: -30px;
+}
+
+.NTF2 {
+  position: absolute;
+  width: 274px;
+  height: 176px;
+  left: 32px;
+  top: 2200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 58px;
+  color: #111111;
+}
+
+.dont2 {
+  position: absolute;
+  width: 274px;
+  height: 120px;
+  left: 32px;
+  top: 2500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #111111;
+  margin-top: 10px;
+}
+
+.white {
+  margin-left: 150px;
+  position: absolute;
+  height: 500px;
+  margin-top: 60px;
+  background-color: white;
+}
 /*# sourceMappingURL=index2.css.map */
