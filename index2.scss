@@ -9,7 +9,7 @@
   margin-right: 20px;
 }
 .logo {
-  background-image: url("/assets/logo.svg");
+  background-image: url(/testas2/assets/logo.svg);
   background-size: 100% 100%;
   width: 150px;
   height: 34px;
@@ -204,6 +204,7 @@ u {
   overflow-y: hidden;
   white-space: nowrap;
   left: 32px;
+  margin-bottom: 20px;
 
   .card {
     display: inline-block;
@@ -260,8 +261,8 @@ h2 {
 }
 .solid-line {
   height: 2px;
-  background-color: #eeeeee;
-  margin: 84px 0;
+  background-color: rgb(198, 192, 192);
+  margin: 14px 0;
   border-radius: 25px;
   width: 534px;
   margin-right: 0px;
@@ -287,7 +288,7 @@ h2 {
   width: 274px;
   height: 120px;
   left: 32px;
-  top: 2500px;
+  top: 2400px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -297,9 +298,149 @@ h2 {
   margin-top: 10px;
 }
 .white {
-  margin-left: 150px;
+  margin-left: 225px;
   position: absolute;
   height: 500px;
-  margin-top: 60px;
+  margin-top: 150px;
   background-color: white;
+  width: 355px;
+  height: 450px;
+  object-fit: cover;
+  object-position: 20% 15%;
+}
+.logo2 {
+background-image: url ("/testas2/assets/logo.svg");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 2600px;
+  width: 150px;
+  height: 34px;
+  margin-left: 32px;
+  margin-top: 34px;
+}
+.bott {
+  position: absolute;
+  top: 2800px;
+  width: 274px;
+  height: 120px;
+  left: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #111111;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.logo-botom {
+  position: absolute;
+  top: 2740px;
+  left: 35px;
+}
+.solid-line2 {
+  height: 2px;
+  position: absolute;
+  top: 2600px;
+  background-color: rgb(197, 180, 180);
+  margin: 84px 0;
+  border-radius: 25px;
+  width: 534px;
+  margin-right: 0px;
+  margin-left: -30px;
+}
+.icon {
+filter: invert(60%);
+padding-top: 10px;
+}
+footer p5 {
+  position: absolute;
+  top: 2900px;
+  left: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: grey;
+  padding-bottom: 0px;
+}
+footer p6 {
+  position: absolute;
+  top: 2950px;
+  left: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  color: grey;
+}
+footer p7 {
+  position: absolute;
+  top: 2980px;
+  left: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  color: grey;
+}
+footer p8 {
+  position: absolute;
+  top: 3010px;
+  left: 49px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  color: grey;
+}
+footer p55 {
+  position: absolute;
+  top: 3060px;
+  left: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: grey;
+  padding-bottom: 0px;
+}
+footer p66 {
+  position: absolute;
+  top: 3100px;
+  left: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  color: grey;
+}
+footer p77 {
+  position: absolute;
+  top: 3130px;
+  left: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  color: grey;
+}
+footer p88 {
+  position: absolute;
+  top: 3190px;
+  left: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  color: grey;
+  padding-bottom: 60px;
 }
