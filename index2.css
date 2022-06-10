@@ -95,7 +95,7 @@ button {
   padding: 1em 2em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: black;
+  color: #111111;
   background: white;
   background-clip: padding-box;
   border: solid 5px transparent;
@@ -450,9 +450,11 @@ h2 {
 }
 
 .icon {
-  -webkit-filter: invert(60%);
-          filter: invert(60%);
-  padding-top: 10px;
+  position: absolute;
+  left: 39px;
+  top: 2850px;
+  -webkit-filter: invert(50%);
+          filter: invert(50%);
 }
 
 footer p5 {

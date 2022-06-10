@@ -1,8 +1,34 @@
+$fontsize1: 16px;
+$fontsize2: 17px;
+$fontsize3: 18px;
+$fontsize4: 20px;
+$fontsize5: 42px;
+$fontsize6: 48px;
+$textcolor1: grey;
+$textcolor2: red;
+$textcolor3: #111111;
+$textcolor4: #ff3998;
+$textcolor5: orange;
+$fontweight1: 200;
+$fontweight2: 400;
+$fontweight3: 500;
+$fontweight4: 550;
+$fontweight5: 600;
+$fontweight6: 700;
+$fontweight7: 800;
+$fontweight8: 900;
+$backgroundcolor1: grey;
+$backgroundcolor2: white;
+$backgroundcolor3: rgb(217, 86, 20);
+$backgroundcolor4: rgb(198, 192, 192);
+$backgroundcolor5: rgb(197, 180, 180);
+$myfont: "Inter";
+
 .one,
 .two,
 .three {
   height: 4px;
-  background-color: grey;
+  background-color: $backgroundcolor1;
   margin: 4px 0;
   border-radius: 25px;
   width: 20px;
@@ -24,10 +50,10 @@
   align-items: flex-end;
 }
 section p {
-  color: #ff3998;
-  font-family: "Inter";
-  font-weight: 700;
-  font-size: 16px;
+  color: $textcolor4;
+  font-family: $myfont;
+  font-weight: $fontweight6;
+  font-size: $fontsize1;
   line-height: 19px;
   letter-spacing: 0.1rem;
   position: absolute;
@@ -43,12 +69,12 @@ section p {
   height: 176px;
   left: 32px;
   top: 191px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
+  font-weight: $fontweight8;
+  font-size: $fontsize6;
   line-height: 58px;
-  color: #111111;
+  color: $textcolor3;
 }
 .dont {
   position: absolute;
@@ -56,12 +82,12 @@ section p {
   height: 120px;
   left: 32px;
   top: 331px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: $fontweight2;
+  font-size: $fontsize4;
   line-height: 150%;
-  color: #111111;
+  color: $textcolor3;
 }
 .pink-photo {
   position: absolute;
@@ -73,7 +99,7 @@ section p {
 
 button {
   align-items: center;
-  font-weight: 800;
+  font-weight: $fontweight7;
   //width: 50vw;
   max-width: 10em;
   margin-top: 25px;
@@ -83,7 +109,7 @@ button {
   box-sizing: border-box;
 
   $border: 5px;
-  color: black;
+  color: $textcolor3;
   background: white;
   background-clip: padding-box;
   border: solid $border transparent;
@@ -109,12 +135,12 @@ button {
   height: 272px;
   left: 32px;
   top: 760px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 900;
-  font-size: 42px;
+  font-weight: $fontweight8;
+  font-size: $fontsize5;
   line-height: 58px;
-  color: #111111;
+  color: $textcolor3;
 }
 .background p2 {
   position: absolute;
@@ -128,18 +154,18 @@ button {
   padding-bottom: 50px;
   left: 32px;
   top: 890px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: $fontweight3;
+  font-size: $fontsize4;
   line-height: 150%;
-  color: #111111;
+  color: $textcolor3;
 }
 .background,
 .dontt {
   position: absolute;
   align-items: center;
-  background-color: rgb(217, 86, 20);
+  background-color: $backgroundcolor3;
   background-image: linear-gradient(
     to right,
     rgb(246, 102, 102),
@@ -154,7 +180,7 @@ button {
 .new {
   position: absolute;
   align-items: center;
-  background-color: rgb(217, 86, 20);
+  background-color: $backgroundcolor3;
   background-image: linear-gradient(to right, rgb(246, 102, 102), orange);
   background-size: cover;
   width: 100%;
@@ -192,12 +218,12 @@ button {
   height: 176px;
   left: 32px;
   top: 1291px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
+  font-weight: $fontweight8;
+  font-size: $fontsize6;
   line-height: 58px;
-  color: #111111;
+  color: $textcolor3;
 }
 .wehave {
   position: absolute;
@@ -206,15 +232,15 @@ button {
   padding-bottom: 50px;
   left: 32px;
   top: 1450px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: $fontweight3;
+  font-size: $fontsize4;
   line-height: 150%;
-  color: #111111;
+  color: $textcolor3;
 }
 u {
-  font-weight: 550;
+  font-weight: $fontweight4;
 }
 .scrolling-wrapper {
   position: absolute;
@@ -236,30 +262,30 @@ u {
 
 .card {
   background-color: #eeeeee;
-  font-family: "Inter";
+  font-family: $myfont;
   border-radius: 2rem;
 }
 h2 {
-  color: orange;
-  font-size: 18px;
+  color: $textcolor5;
+  font-size: $fontsize3;
   padding-left: 25px;
   padding-top: 25px;
 }
 .item {
-  font-family: "Inter";
-  font-size: 18px;
+  font-family: $myfont;
+  font-size: $fontsize3;
   padding-left: 0px;
   margin-top: 4px;
-  font-weight: 800;
+  font-weight: $fontweight7;
 }
 .gloop {
   padding-left: 0px;
 }
 .number {
-  font-size: 18px;
+  font-size: $fontsize3;
   padding-left: 0px;
   margin-top: 1px;
-  color: grey;
+  color: $textcolor1;
 }
 .pricetag {
   display: flex;
@@ -281,7 +307,7 @@ h2 {
 }
 .solid-line {
   height: 2px;
-  background-color: rgb(198, 192, 192);
+  background-color: $backgroundcolor4;
   margin: 14px 0;
   border-radius: 25px;
   width: 1034px;
@@ -290,7 +316,7 @@ h2 {
 }
 .solid-line3 {
   height: 2px;
-  background-color: rgb(198, 192, 192);
+  background-color: $backgroundcolor4;
   margin: 14px 0;
   border-radius: 25px;
   width: 1034px;
@@ -304,12 +330,12 @@ h2 {
   height: 176px;
   left: 32px;
   top: 2200px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
   font-weight: bolder;
-  font-size: 48px;
+  font-size: $fontsize6;
   line-height: 58px;
-  color: #111111;
+  color: $textcolor3;
 }
 
 .dont2 {
@@ -318,12 +344,12 @@ h2 {
   height: 120px;
   left: 32px;
   top: 2400px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: $fontweight2;
+  font-size: $fontsize4;
   line-height: 150%;
-  color: #111111;
+  color: $textcolor3;
   margin-top: 10px;
 }
 .white {
@@ -331,7 +357,7 @@ h2 {
   position: absolute;
   height: 500px;
   margin-top: 150px;
-  background-color: white;
+  background-color: $backgroundcolor2;
   width: 355px;
   height: 450px;
   object-fit: cover;
@@ -354,12 +380,12 @@ h2 {
   width: 274px;
   height: 120px;
   left: 38px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: $fontweight2;
+  font-size: $fontsize4;
   line-height: 150%;
-  color: #111111;
+  color: $textcolor3;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -372,7 +398,7 @@ h2 {
   height: 2px;
   position: absolute;
   top: 2600px;
-  background-color: rgb(197, 180, 180);
+  background-color: $backgroundcolor5;
   margin: 84px 0;
   border-radius: 25px;
   width: 1034px;
@@ -380,105 +406,107 @@ h2 {
   margin-left: -30px;
 }
 .icon {
-  filter: invert(60%);
-  padding-top: 10px;
+  position: absolute;
+  left: 39px;
+  top: 2850px;
+  filter: invert(50%);
 }
 footer p5 {
   position: absolute;
   top: 2900px;
   left: 45px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: $fontweight5;
+  font-size: $fontsize2;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
   padding-bottom: 0px;
 }
 footer p6 {
   position: absolute;
   top: 2950px;
   left: 45px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: $fontweight1;
+  font-size: $fontsize1;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
 }
 footer p7 {
   position: absolute;
   top: 2980px;
   left: 45px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: $fontweight1;
+  font-size: $fontsize1;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
 }
 footer p8 {
   position: absolute;
   top: 3010px;
   left: 49px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: $fontweight1;
+  font-size: $fontsize1;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
 }
 footer p55 {
   position: absolute;
   top: 3060px;
   left: 45px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: $fontweight5;
+  font-size: $fontsize2;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
   padding-bottom: 0px;
 }
 footer p66 {
   position: absolute;
   top: 3100px;
   left: 45px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: $fontweight1;
+  font-size: $fontsize1;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
 }
 footer p77 {
   position: absolute;
   top: 3130px;
   left: 45px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: $fontweight1;
+  font-size: $fontsize1;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
 }
 footer p88 {
   position: absolute;
   top: 3190px;
   left: 45px;
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: $fontweight1;
+  font-size: $fontsize1;
   line-height: 150%;
-  color: grey;
+  color: $textcolor1;
   padding-bottom: 60px;
 }
 .navigation {
-  font-family: "Inter";
+  font-family: $myfont;
   font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: $fontweight1;
+  font-size: $fontsize1;
   display: flex;
   justify-content: flex-end;
   gap: 4px;
@@ -487,11 +515,11 @@ footer p88 {
   left: 400px;
 
   a {
-    color: #111111;
+    color: $textcolor3;
     text-decoration: none;
   }
   a:last-child {
-    color: red;
+    color: $textcolor2;
   }
 }
 
@@ -580,12 +608,12 @@ footer p88 {
     position: absolute;
     top: 3190px;
     left: 660px;
-    font-family: "Inter";
+    font-family: $myfont;
     font-style: normal;
-    font-weight: 200;
-    font-size: 16px;
+    font-weight: $fontweight1;
+    font-size: $fontsize1;
     line-height: 150%;
-    color: grey;
+    color: $textcolor1;
   }
 }
 
